@@ -7,7 +7,6 @@ void main() {
 
   print("enter your age ");
   // var age = stdin.readLineSync(); // age is string , to convert this into int follow next line
-
   int age = int.parse(stdin.readLineSync()!);
   print("age is $age");
 
@@ -15,6 +14,9 @@ void main() {
   double cg = double.parse(stdin.readLineSync()!);
   print("your cgpa is $cg");
 
+
+  // variable check 
+  
   if (age is int) {
     print("$age is integer");
   } else {
